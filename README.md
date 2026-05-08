@@ -37,10 +37,6 @@ ssh-keygen -t ed25519 -C albertorueda.25@campuscamara.es
 
 ssh-copy-id -p 2222 alberto@localhost
 y aceptamos
-# Acceso Remoto mediante RDP
-
-## Conexión desde cliente RDP
-
 
 ## localhost:3000
 Abrimos esto en google y observamos nuestro escritorio d ubuntu
