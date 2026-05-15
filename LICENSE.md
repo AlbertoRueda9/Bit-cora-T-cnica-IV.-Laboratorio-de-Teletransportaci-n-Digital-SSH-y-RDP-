@@ -21,12 +21,11 @@
 - Sitio oficial: https://www.docker.com/
 - Información de licencia: https://github.com/docker/cli/blob/master/LICENSE
 
-## Docker Compose
-
-
 
 ## Ubuntu
 
-
-## PostgreSQL
+- Propósito: Sistema operativo Linux utilizado en el entorno gráfico.
+- Licencia: GNU GPL y otras licencias open source.
+- Sitio oficial: https://ubuntu.com/
+- Información de licencia: https://ubuntu.com/licensing
 
