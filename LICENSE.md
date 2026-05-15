@@ -16,8 +16,14 @@
 
 ## Docker
 
+- Propósito: Plataforma de contenedores para virtualización ligera.
+- Licencia: Apache License 2.0
+- Sitio oficial: https://www.docker.com/
+- Información de licencia: https://github.com/docker/cli/blob/master/LICENSE
 
 ## Docker Compose
+
+
 
 ## Ubuntu
 
