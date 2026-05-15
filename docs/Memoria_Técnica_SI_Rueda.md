@@ -71,9 +71,19 @@ La empresa necesitaba una solución que permitiera a los trabajadores acceder de
 
 Uno de los principales inconvenientes era la necesidad de abrir varios puertos en la red para permitir las conexiones externas. Cuantos más puertos abiertos existen, mayor es el riesgo de sufrir ataques o accesos no autorizados. Además, cada usuario necesitaba instalar programas específicos para conectarse remotamente, lo que complicaba todavía más el trabajo y aumentaba el tiempo necesario para configurar nuevos equipos.
 
+Para resolver estos problemas se decidió utilizar Docker junto con Apache Guacamole. Docker permite crear contenedores independientes para cada servicio, facilitando la organización y evitando conflictos entre aplicaciones. Gracias a esta tecnología, todos los servicios pueden ejecutarse de forma separada y controlada dentro de la misma infraestructura.
 
 
+Apache Guacamole se utilizó como sistema de acceso remoto vía web. Esta herramienta permite conectarse a escritorios remotos directamente desde el navegador, sin necesidad de instalar clientes externos. De esta forma, cualquier usuario puede acceder al entorno remoto desde diferentes dispositivos utilizando únicamente una conexión web.
 
+
+Además, se configuró el acceso SSH mediante claves públicas para mejorar la seguridad. Este sistema es más seguro que el uso tradicional de contraseñas, ya que dificulta los accesos no autorizados y reduce el riesgo de ataques por fuerza bruta.
+
+
+La solución implementada también ofrece ventajas relacionadas con el mantenimiento y el ahorro de recursos. Docker permite desplegar rápidamente todos los servicios mediante el archivo `docker-compose.yml`, facilitando futuras instalaciones o recuperaciones del sistema en caso de fallo.
+
+
+Por tanto, la combinación de Docker y Apache Guacamole proporciona una solución moderna, segura y fácil de administrar.
 
 
 # 6. Conclusión
